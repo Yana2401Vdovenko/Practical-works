@@ -18,7 +18,7 @@ int main() {
     printf("Enter the number of integers: ");
     scanf("%d", &p);
 
-    if (p < 2 || p > 20) {
+    if (p <= 2 || p >= 20) {
         printf("The number of integers must be between 2 and 20.\n");
         return 1;
     }
